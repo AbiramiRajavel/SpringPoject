@@ -21,7 +21,7 @@ public class Demopro {
     	ModelAndView mav=new ModelAndView("completed");
     	System.out.println(help.getName());
        // mav.addObject(help);
-        mav.addObject(help);
+        mav.addObject("help", help);
     	//mav.addObject("msg","welcome");
     	return mav;
     
